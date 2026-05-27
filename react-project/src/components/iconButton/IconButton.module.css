@@ -1,0 +1,29 @@
+.iconButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #4368e0;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.375rem; 
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.iconButton:hover {
+  background-color: #1d4ed8; 
+}
+
+.iconButton:active {
+  transform: scale(0.98);
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem; 
+}
